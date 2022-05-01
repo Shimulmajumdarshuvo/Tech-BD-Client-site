@@ -1,0 +1,45 @@
+.banner {
+    background-image: linear-gradient(57deg, #00c6a7, #1e4d92);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    color: rgb(13, 22, 21);
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.left button {
+    border: 1px solid ghostwhite;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+}
+
+.left button:hover {
+    background: linear-gradient(57deg, #00c6a7, #1e4d92, #00c6a7);
+
+}
+
+.right {}
+
+.right img {
+    width: 100%;
+}
+
+@media only screen and (max-width:760px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+}

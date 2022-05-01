@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import './Footer.css';
 
 const Footer = () => {
@@ -48,7 +50,7 @@ const Footer = () => {
                     <Card.Body >
 
                         <Card.Text>
-                            <h6>Laptop</h6>
+                            <h6> <FontAwesomeIcon icon={faCoffee} />Laptop</h6>
                         </Card.Text>
                     </Card.Body>
 
@@ -57,6 +59,8 @@ const Footer = () => {
 
             <div className='text-center'><p >Copy Right<small><span>&copy;</span>
                 Developer Shimul Majumdar. {new Date().getUTCFullYear()}</small></p>
+
+                <FontAwesomeIcon icon={faCoffee} />
             </div>
 
 
