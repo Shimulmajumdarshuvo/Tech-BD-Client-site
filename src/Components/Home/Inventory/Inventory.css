@@ -1,0 +1,23 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    text-align: center;
+    margin: 3px 60px;
+
+}
+
+.btn-part {
+    text-align: center;
+}
+
+.btn-part .button {
+    color: rgb(9, 1, 19);
+    background-color: rgb(40, 163, 143);
+
+    padding: 8px;
+    border: 1px solid cornflowerblue;
+    border-radius: 13px;
+    margin: 4px 3px;
+
+}
