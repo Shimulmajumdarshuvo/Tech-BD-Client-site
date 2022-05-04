@@ -1,44 +1,50 @@
 [
     {
         "id": "27cf3",
-        "review": "Laptop is vary useful in the social media.  Apple is definitely one of the luxury brands when it comes to Laptops, Smartphones, Computers and Tablets. Apple tops the segments like customer support, build quality, user friendly, design, power and display. ",
-        "name": "Mark Wahlberg",
-        "ratings": 3,
+        "review": "Apple MacBook Air 13.3-Inch Retina Display 8-core Apple M1 chip with 8GB RAM, 256GB SSD (MGN63) Space Gray.Apple's thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery life ever in a MacBook Air. ",
+        "name": "Apple MacBook",
+        "price": 95000,
+        "quantity": 25,
         "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/MGN73/macbook-mgn73Zp-a-500x500.jpg"
     },
     {
         "id": "6add9d",
-        "review": "Laptop is vary useful in the social media.  Apple is definitely one of the luxury brands when it comes to Laptops, Smartphones, Computers and Tablets. Apple tops the segments like customer support, build quality, user friendly, design, power and display.",
-        "name": "Tom Holland",
-        "ratings": 4.5,
+        "review": "The Panasonic Lumix DC-G100 is a 20.3MP 4K Mirrorless Digital Camera that comes with a 12-32mm Lens. It features Superb-quality 4K/30p and FHD/60p video, easy smartphone connection, and other creative functions. The exceptional performance and portability of the LUMIX G100 let you capture fleeting moments in crystal-clear 4K photo and video.",
+        "name": " Mirrorless Digital Camera ",
+        "price": 71000,
+        "quantity": 20,
         "img": "https://www.startech.com.bd/image/cache/catalog/camera/mirriorless/panasonic/lumix-g100/g100-02-500x500.jpg"
     },
     {
         "id": "c6cb80a",
-        "review": "Laptop is vary useful in the social media.  Apple is definitely one of the luxury brands when it comes to Laptops, Smartphones, Computers and Tablets. Apple tops the segments like customer support, build quality, user friendly, design, power and display.",
-        "name": "Johnny Depp",
-        "ratings": 4,
+        "review": "Razer KRAKEN X 7.1 Gaming Headset comes with Ultra-light at just 250g and ultra-immersive with 7.1 surround sound, Sit tight and play for hours. This headset is comes equipped with 7.1 surround sound software so you can experience accurate positional audio when gaming and able to pick up the direction of where the action is coming.",
+        "name": "Gaming Headset",
+        "price": 5000,
+        "quantity": 50,
         "img": "https://www.startech.com.bd/image/cache/catalog/headphone/razer/kraken-x/kraken-x-1-500x500.jpg"
     },
     {
         "id": "f54a476",
-        "review": "Laptop is vary useful in the social media.  Apple is definitely one of the luxury brands when it comes to Laptops, Smartphones, Computers and Tablets. Apple tops the segments like customer support, build quality, user friendly, design, power and display.",
-        "name": "ESSENTIALS COLORBLOCK TEE",
-        "ratings": 4.5,
+        "review": " Features sturdy components and completely smooth power delivery to the CPU. Plus, it offers unmatched overclocking capabilities and enhanced performance with the lowest temperature for advanced gamers as well. ASRock B550M supports the next generation PCI Express 4.0 M.2 SSDs, it is capable of perform twice the speed compared.",
+        "name": "AMD Motherboard",
+        "price": 4000,
+        "quantity": 45,
         "img": "https://www.startech.com.bd/image/cache/catalog/component/motherboard/asrock/b550-hdv/b550m-01-500x500.jpg"
     },
     {
         "id": "4a0090e7",
-        "review": "Laptop is vary useful in the social media .  Apple is definitely one of the luxury brands when it comes to Laptops, Smartphones, Computers and Tablets. Apple tops the segments like customer support, build quality, user friendly, design, power and display.",
-        "name": "Max Verstappen",
-        "ratings": 5,
+        "review": "The Antec NX240 Mid Ttower Gaming Case effortlessly combines with a bevy of in-demand features, like - USB 3.0 connectivity, ample storage drive bays, room for expansion, and includes four ARGB LED fans in both front and rear. This case comes with support for up to a 240 mm liquid cooling radiator in front.",
+        "name": "Mid Tower Gaming Case",
+        "price": 4250,
+        "quantity": 45,
         "img": "https://www.startech.com.bd/image/cache/catalog/casing/antec/nx240/nx240-01-500x500.jpg"
     },
     {
         "id": "0ac76ee",
-        "review": "Laptop is vary useful in the social media.  Apple is definitely one of the luxury brands when it comes to Laptops, Smartphones, Computers and Tablets. Apple tops the segments like customer support, build quality, user friendly, design, power and display.",
-        "name": "Mark Ruffalo",
-        "ratings": 4,
+        "review": "Cisco 6821 IP Phone is used for Multiplatform Phone (MPP) Firmware Systems. This IP Phone is is a cost-effective, high-fidelity voice communications portfolio designed, that improve your organization’s person-to-person communications while reducing your operating costs on Cisco Webex Calling.",
+        "name": "Multiplatform Phone (MPP)",
+        "price": 1225,
+        "quantity": 35,
         "img": "https://www.startech.com.bd/image/cache/catalog/ip-phone/cisco/6821/6821-0-500x500.jpg"
     }
 ]
