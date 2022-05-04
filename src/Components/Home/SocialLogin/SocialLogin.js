@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
@@ -43,7 +44,7 @@ const SocialLogin = () => {
 
                         className='btn btn-info w-30 mx-auto my-2 d-block '>
                         {/* <img style={{ width: '25px' }} src={google} alt="" /> */}
-                        <span className='px-2'> Google</span>
+                        <span className='px-2'><FontAwesomeIcon icon={faGoogle} /> Google</span>
                     </button>
                     <button
 
@@ -51,7 +52,8 @@ const SocialLogin = () => {
 
                         className='btn btn-info w-30 mx-auto my-2 d-block '>
                         {/* <img style={{ width: '25px' }} src={facebook} alt="" /> */}
-                        <span className='px-2'> facebook</span>
+                        <span className='px-2'> <FontAwesomeIcon icon={faFacebook} /> facebook</span>
+
                     </button>
                     <button
                         onClick={() => signInWithGithub()}
@@ -59,7 +61,7 @@ const SocialLogin = () => {
 
                         className='btn btn-info w-30 mx-auto my-2 d-block'>
                         {/* <img style={{ width: '25px' }} src={github} alt="" /> */}
-                        <span className='px-2'> Github</span>
+                        <span className='px-2'><FontAwesomeIcon icon={faGithub} /> Github</span>
                     </button>
                 </div>
             </div>

@@ -22,10 +22,10 @@
     border-radius: 15px;
     padding: 40px 25px;
 
-    background-color: gray;
+    background-color: #eef8ff;
 }
 
 .feature:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(89, 20, 95);
+    color: rgb(100, 20, 6);
 }

@@ -12,7 +12,7 @@ const Inventory = () => {
         <div>
 
             <div>
-                <h1>Inventory</h1>
+                <h1 className='text-center text-info'>Inventory</h1>
 
                 <div className="products">
 

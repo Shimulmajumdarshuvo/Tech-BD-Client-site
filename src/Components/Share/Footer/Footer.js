@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptop, } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faGoogle, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
 
 const Footer = () => {
@@ -23,16 +23,22 @@ const Footer = () => {
                     <p>Terms and Condition</p>
                     <p>Privacy</p>
                 </div>
-                <div><h5>Contact </h5>
+                <div ><h5>Contact </h5>
                     <p>shimulmajumdar906@gmail.com</p>
+                    <p> Khulna,Bangladesh </p>
                     <p>01303461237</p>
+                    <div >
+                        <FontAwesomeIcon className="icon" icon={faLaptop} />
+                        <FontAwesomeIcon className="icon" icon={faFacebook} />
+                        <FontAwesomeIcon className="icon" icon={faTwitter} />
+                        <FontAwesomeIcon className="icon" icon={faGithub} />
+                        <FontAwesomeIcon className="icon" icon={faGoogle} />
+                    </div>
 
-                    <FontAwesomeIcon icon={faLaptop} />
-                    <FontAwesomeIcon icon={faFacebook} />
 
 
                 </div>
-                <div className='w-50 text-center'>
+                <div className=' text-center'>
 
                     <img height={100} width={170} src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="" /> <br />
                     <img height={70} width={150} src="https://www.pyronix.com/uk/wp-content/uploads/sites/4/2021/02/badge-example-preferred_2x.png" alt="" />
