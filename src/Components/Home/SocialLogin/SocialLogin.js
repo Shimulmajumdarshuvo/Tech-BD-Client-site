@@ -44,7 +44,7 @@ const SocialLogin = () => {
 
                         className='btn btn-info w-30 mx-auto my-2 d-block '>
                         {/* <img style={{ width: '25px' }} src={google} alt="" /> */}
-                        <span className='px-2'><FontAwesomeIcon icon={faGoogle} /> Google</span>
+                        <span className='px-2'><FontAwesomeIcon icon={faGoogle} /> </span>
                     </button>
                     <button
 
@@ -52,7 +52,7 @@ const SocialLogin = () => {
 
                         className='btn btn-info w-30 mx-auto my-2 d-block '>
                         {/* <img style={{ width: '25px' }} src={facebook} alt="" /> */}
-                        <span className='px-2'> <FontAwesomeIcon icon={faFacebook} /> facebook</span>
+                        <span className='px-2'> <FontAwesomeIcon icon={faFacebook} /> </span>
 
                     </button>
                     <button
@@ -61,7 +61,7 @@ const SocialLogin = () => {
 
                         className='btn btn-info w-30 mx-auto my-2 d-block'>
                         {/* <img style={{ width: '25px' }} src={github} alt="" /> */}
-                        <span className='px-2'><FontAwesomeIcon icon={faGithub} /> Github</span>
+                        <span className='px-2'><FontAwesomeIcon icon={faGithub} /> </span>
                     </button>
                 </div>
             </div>
