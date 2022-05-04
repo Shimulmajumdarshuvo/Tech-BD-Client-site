@@ -4,6 +4,18 @@
     padding: 5px;
 }
 
+.social-part {
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px;
+
+}
+
+.social-part:hover {
+    background-color: beige;
+}
+
 @media only screen and (max-width:790px) {
     .social {
         flex-direction: column;

@@ -4,8 +4,23 @@
 }
 
 .register-form {
-    color: rgb(3, 58, 58);
+    text-align: center;
+    background-color: #366d8b;
+    margin: 50px;
 }
+
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #d9eff9;
+    color: white;
+
+}
+
+.image .image img {
+    margin: 0 auto;
+}
+
 
 .register-form input {
     display: block;
@@ -17,8 +32,6 @@
     font-size: 18px;
     margin-bottom: 15px;
     margin: 10px auto;
-    border: none;
-    border: 1px solid rgb(16, 1, 31);
-    border-radius: 5px;
-    box-shadow: 8px 6px 2px 1px rgba(229, 229, 241, 0.2);
+
+
 }

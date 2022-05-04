@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import logoIcon from '../../../images/Login-illustration.svg'
 import auth from '../../../firebase.init';
 
 import SocialLogin from '../SocialLogin/SocialLogin';
@@ -64,12 +65,12 @@ const Login = () => {
 
     return (
         <div className='user'>
-            <div className='w-75'>
-                <img src="https://routemobile.com/wp-content/uploads/2021/06/Login-illustration.svg" alt="" />
+            <div className='w-75 text-center'>
+                <img src={logoIcon} alt="" />
 
             </div>
             <div className='container w-50 mx-auto login-part'>
-                <h2 className='text-primary text-center mt-2'>Please Login</h2>
+                <h2 className='text-center mt-2'>Please Login</h2>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
@@ -82,8 +83,8 @@ const Login = () => {
                     </Button>
                 </Form>
                 {errorElement}
-                <p>Don't have an account? <Link to="/register" className=' pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
-                <p>Forget Password? <button className='btn btn-link  pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+                <p>Don't have an account? <Link to="/register" className=' text-white  text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
+                <p>Forget Password? <button className='btn btn-link text-white text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
                 <SocialLogin></SocialLogin>
                 <ToastContainer />
 

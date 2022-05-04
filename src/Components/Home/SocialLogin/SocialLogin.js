@@ -42,16 +42,14 @@ const SocialLogin = () => {
                         onClick={() => signInWithGoogle()}
 
 
-                        className='btn btn-info w-30 mx-auto my-2 d-block '>
-                        {/* <img style={{ width: '25px' }} src={google} alt="" /> */}
+                        className='  mx-auto  d-block social-part'>
+
                         <span className='px-2'><FontAwesomeIcon icon={faGoogle} /> </span>
                     </button>
                     <button
 
+                        className='  mx-auto  d-block social-part '>
 
-
-                        className='btn btn-info w-30 mx-auto my-2 d-block '>
-                        {/* <img style={{ width: '25px' }} src={facebook} alt="" /> */}
                         <span className='px-2'> <FontAwesomeIcon icon={faFacebook} /> </span>
 
                     </button>
@@ -59,8 +57,8 @@ const SocialLogin = () => {
                         onClick={() => signInWithGithub()}
 
 
-                        className='btn btn-info w-30 mx-auto my-2 d-block'>
-                        {/* <img style={{ width: '25px' }} src={github} alt="" /> */}
+                        className='  mx-auto  d-block social-part'>
+
                         <span className='px-2'><FontAwesomeIcon icon={faGithub} /> </span>
                     </button>
                 </div>
