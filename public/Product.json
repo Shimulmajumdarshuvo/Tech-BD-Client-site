@@ -46,5 +46,27 @@
         "price": 1225,
         "quantity": 35,
         "img": "https://www.startech.com.bd/image/cache/catalog/ip-phone/cisco/6821/6821-0-500x500.jpg"
+    },
+    {
+        "id": "0ac79de",
+        "review": "The latest LG UltraGear 27GN800-B 27 Gaming Monitor is complete your battle station. It is the pinnacle of gaming monitors. The LG UltraGear gaming monitor featured A ultra-fast speed of 144Hz allows gamers makes image to appear smoothly and you can see the next frame quickly.",
+        "price": 5215,
+        "quantity": 45,
+        "img": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/27gn800-b/27gn800-b-01-500x500.jpg"
+    },
+    {
+        "id": "0ac43ee",
+        "review": "The new generation of VP650 PLUS is crafted for quality, performance and incredible value. This entry-level solution is rated from 500W to 650W, saving energy through its high efficiency of up to 85% efficient and is 80 PLUS Standard certified.",
+        "name": "Modular Power Supply",
+        "price": 3525,
+        "quantity": 17,
+        "img": "https://www.startech.com.bd/image/cache/catalog/power-supply/Antec/vp650-plus/vp650-plus-500x500.jpg"
+    },
+    {
+        "id": "0aj76ee",
+        "review": "The new Dual Monitor Arm Desk Mount comes with Dual Monitor Arm Desk Mount with Gas Spring Height Adjustment and Full Motion Capability. You can Easily adjusts to support an ergonomically correct workstation; sit more comfortably  ",
+        "price": 1555,
+        "quantity": 10,
+        "img": "https://www.startech.com.bd/image/cache/catalog/wall-mount/dual-monitor-m8-arm-desk-mount-500x500.jpg"
     }
 ]

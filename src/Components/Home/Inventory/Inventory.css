@@ -4,20 +4,42 @@
     grid-gap: 30px;
     text-align: center;
     margin: 3px 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+
+.products button {
+    border: 1px solid ghostwhite;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+}
+
+.products button:hover {
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
 
 }
 
 .btn-part {
     text-align: center;
+
 }
 
 .btn-part .button {
-    color: rgb(9, 1, 19);
-    background-color: rgb(40, 163, 143);
-
-    padding: 8px;
-    border: 1px solid cornflowerblue;
-    border-radius: 13px;
-    margin: 4px 3px;
+    border: 1px solid ghostwhite;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    margin: 20px 0;
 
 }

@@ -6,8 +6,7 @@ import './Inventory.css';
 
 const Inventory = () => {
     const [products] = useProducts();
-    console.log(products);
-    console.log('jkehfgerg');
+
     return (
         <div>
 
@@ -15,11 +14,9 @@ const Inventory = () => {
                 <h1 className='text-center text-info'>Inventory</h1>
 
                 <div className="products">
-
-
                     {
                         products.slice(0, 6).map(product => <Card
-                            key={product.id}
+                            key={product._id}
                             product={product}
 
                         ></Card>)
