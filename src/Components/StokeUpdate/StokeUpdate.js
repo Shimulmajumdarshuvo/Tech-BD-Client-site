@@ -20,24 +20,29 @@ const StokeUpdate = () => {
     });
 
     return (
-        <div className='add-card'>
-
-            <div>
-                <img src={service.img} alt="" />
-            </div>
-            <div>
-                <h2> {service?.name}</h2>
-                <p>{service.review}</p>
-                <p>Price : {service.price}</p>
-                <p> Quantity : {service.quantity}</p>
+        <div >
+            <div className='add-card'>
 
 
-                <div className=''>
-                    <button>Deliverd</button>
-                    <input type="number" name="" id="" />
+
+                <div >
+                    <img src={service.img} alt="" />
+                </div>
+                <div>
+                    <h2> {service?.name}</h2>
+                    <p>{service.review}</p>
+                    <p>Price : {service.price}</p>
+                    <p> Quantity : {service.quantity}</p>
+
+
+                    <div className='btn-part'>
+                        <button>Delivered</button>
+
+                    </div>
+                    <input className='btn-part' type="text" placeholder='Restock Quantity' />
+                    <button>Restock</button>
                 </div>
             </div>
-
 
         </div>
     );

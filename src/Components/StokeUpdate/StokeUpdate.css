@@ -12,3 +12,23 @@
     width: 400px;
     margin: auto;
 }
+
+.btn-part {
+    margin: 10px;
+}
+
+button {
+    border: 1px solid ghostwhite;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 18px;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+}
+
+button:hover {
+    background: linear-gradient(57deg #1e4d92, #00c6a7);
+
+}
