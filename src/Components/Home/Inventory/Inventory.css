@@ -6,8 +6,6 @@
     margin: 3px 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-
-
 }
 
 .products button {
@@ -41,5 +39,23 @@
     padding: 10px 25px;
     background: linear-gradient(57deg, #00c6a7, #1e4d92);
     margin: 20px 0;
+
+}
+
+@media only screen and (max-width:860px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 
 }

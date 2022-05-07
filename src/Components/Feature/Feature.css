@@ -29,3 +29,21 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(100, 20, 6);
 }
+
+@media only screen and (max-width:860px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}

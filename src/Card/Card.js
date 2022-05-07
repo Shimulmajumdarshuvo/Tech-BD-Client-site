@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 import './Card.css'
@@ -6,6 +6,14 @@ import './Card.css'
 const Card = (props) => {
     const { _id, name, img, review, price, quantity, suplier } = props.product;
     const navigate = useNavigate();
+
+
+    const [services, setServices] = useState({});
+
+    useEffect(() => {
+        const url = `http://localhost:5000/service/${id}`;
+        
+    })
 
     const navigateToServiceDetail = id => {
         navigate(`/service/${id}`);
