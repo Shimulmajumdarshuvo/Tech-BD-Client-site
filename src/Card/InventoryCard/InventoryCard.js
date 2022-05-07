@@ -7,9 +7,11 @@ const InventoryCard = (props) => {
 
     const handleUserDelete = id => {
         const proceed = window.confirm('Are you sure want to detete? ');
+
         if (proceed) {
             console.log('hfjdhjdh', id);
-            const url = `http://localhost:5000/service/${id}`;
+            const url = `http://localhost:5000/${id}`;
+
             fetch(url, {
                 method: 'DELETE'
             })
