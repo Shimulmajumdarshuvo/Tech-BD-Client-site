@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    border: 1px solid slategray;
+
     margin: 30px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,9 +26,4 @@ button {
     border-radius: 4px;
     padding: 10px 18px;
     background: linear-gradient(57deg, #00c6a7, #1e4d92);
-}
-
-button:hover {
-    background: linear-gradient(57deg #1e4d92, #00c6a7);
-
 }
