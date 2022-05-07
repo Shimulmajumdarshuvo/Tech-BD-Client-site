@@ -6,7 +6,7 @@ const StokeUpdate = () => {
     const { serviceId } = useParams();
 
     const [service, setService] = useState({});
-    console.log(service);
+
 
 
     useEffect(() => {
@@ -33,6 +33,7 @@ const StokeUpdate = () => {
                     <p>{service.review}</p>
                     <p>Price : {service.price}</p>
                     <p> Quantity : {service.quantity}</p>
+                    <p>Suplier Name : {service.suplier}</p>
 
 
                     <div className='btn-part'>
