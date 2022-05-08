@@ -30,9 +30,19 @@ const StokeUpdate = () => {
         await axios.put(url, { newQuantity })
 
     };
-    const handleRestockValue = async (id) => {
 
-        console.log(id);
+
+    const formQunatity = async (e) => {
+
+        e.preventDefault();
+
+        const stock = parseInt(e.target.stock.value);
+        const newQuantity = service?.quantity + stock;
+        const url = `https://shrouded-springs-63285.herokuapp.com/service/${service?._id}`;
+        await axios.put(url, { newQuantity });
+        e.target.reset();
+
+
     }
 
     return (
@@ -57,11 +67,16 @@ const StokeUpdate = () => {
 
                     </div>
 
+                    <form onSubmit={formQunatity} >
 
+                        <input className='btn-part' name='stock' type="text" placeholder='Restock Quantity' required />
 
-                    <input className='btn-part' type="text" placeholder='Restock Quantity' />
-                    <button onClick={() => handleRestockValue(service?._id)}>Restock</button>
+                        <button type='submit'>Restock</button>
+                    </form>
+
                 </div>
+
+
             </div>
             <div className='btn-part'>
                 <Link to="/allinventory">

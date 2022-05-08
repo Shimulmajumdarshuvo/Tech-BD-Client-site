@@ -1,31 +1,25 @@
-import React, { useState } from 'react';
+import axios from 'axios';
+import React from 'react';
 
 import './InventoryCard.css';
 
 const InventoryCard = (props) => {
     const { _id, name, img, review, price, quantity, suplier } = props.product;
+    const { products, load, setLoad, setProducts } = props;
 
-    const [services, setServices] = useState({});
 
-
-    const handleUserDelete = id => {
+    const handleUserDelete = async (id) => {
         const proceed = window.confirm('Are you sure want to detete? ');
 
         if (proceed) {
-            console.log('delete product', id);
+
             const url = `https://shrouded-springs-63285.herokuapp.com/service/${id}`;
 
-            fetch(url, {
-                method: 'DELETE'
-            })
-                .then(res => res.json())
-                .then(data => {
-                    if (data.deletedCont > 0) {
-                        console.log('deleted');
-                        const remaining = services.filter(service => service._id !== id);
-                        setServices(remaining);
-                    }
-                })
+            await axios.delete(url);
+            const remaining = products.filter(pd => pd._id !== id)
+            setProducts(remaining);
+            setLoad(!load)
+
         }
 
     }

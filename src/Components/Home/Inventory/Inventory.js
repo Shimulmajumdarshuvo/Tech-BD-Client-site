@@ -5,7 +5,7 @@ import useProducts from '../../Hooks/UseCart';
 import './Inventory.css';
 
 const Inventory = () => {
-    const [products] = useProducts();
+    const { products } = useProducts();
 
     return (
         <div>

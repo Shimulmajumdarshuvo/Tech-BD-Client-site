@@ -5,7 +5,8 @@ import useProducts from '../../Components/Hooks/UseCart';
 import InventoryCard from '../InventoryCard/InventoryCard';
 
 const AllInventory = () => {
-    const [products] = useProducts();
+    const { products, load, setLoad, setProducts } = useProducts();
+
     return (
         <div>
             <h2 className='text-center text-info p-3'>All Inventory</h2>
@@ -13,8 +14,15 @@ const AllInventory = () => {
                 {products.map(product => <InventoryCard
                     key={product._id}
                     product={product}
+                    products={products}
+                    load={load}
+                    setLoad={setLoad}
+                    setProducts={setProducts}
                 ></InventoryCard>)}
             </div>
+
+
+
             <div className='btn-part'>
                 <Link to="/addItem">
                     <button className='button' >
