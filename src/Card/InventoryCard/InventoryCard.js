@@ -5,6 +5,7 @@ import './InventoryCard.css';
 
 const InventoryCard = (props) => {
     const { _id, name, img, review, price, quantity, suplier } = props.product;
+
     const { products, load, setLoad, setProducts } = props;
 
 
