@@ -8,12 +8,12 @@ const Card = (props) => {
     const navigate = useNavigate();
 
 
-    const [services, setServices] = useState({});
+    // const [services, setServices] = useState({});
 
-    useEffect(() => {
-        const url = `http://localhost:5000/service/${id}`;
-        
-    })
+    // useEffect(() => {
+    //     const url = `http://localhost:5000/service/${id}`;
+
+    // })
 
     const navigateToServiceDetail = id => {
         navigate(`/service/${id}`);
