@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import './InventoryCard.css';
 
 const InventoryCard = (props) => {
@@ -12,7 +13,7 @@ const InventoryCard = (props) => {
 
         if (proceed) {
             console.log('delete product', id);
-            const url = `http://localhost:5000/service/${id}`;
+            const url = `https://shrouded-springs-63285.herokuapp.com/service/${id}`;
 
             fetch(url, {
                 method: 'DELETE'
@@ -42,6 +43,7 @@ const InventoryCard = (props) => {
                 <button onClick={() => handleUserDelete(_id)}>Delete</button>
 
             </div>
+
 
         </div>
     );

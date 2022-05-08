@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useProducts from '../../Components/Hooks/UseCart';
 
 import InventoryCard from '../InventoryCard/InventoryCard';
@@ -14,6 +15,17 @@ const AllInventory = () => {
                     product={product}
                 ></InventoryCard>)}
             </div>
+            <div className='btn-part'>
+                <Link to="/addItem">
+                    <button className='button' >
+                        Add New Item
+                    </button>
+                </Link>
+            </div>
+
+
+
+
         </div>
     );
 };

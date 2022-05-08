@@ -27,7 +27,7 @@ const Inventory = () => {
             <div className='btn-part'>
                 <Link to="/allinventory">
                     <button className='button' >
-                        Manage Inventory >
+                        Manage Inventory
                     </button>
                 </Link>
             </div>

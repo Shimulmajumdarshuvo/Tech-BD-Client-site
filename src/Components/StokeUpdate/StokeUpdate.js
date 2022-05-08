@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './StokeUpdate.css';
 
 const StokeUpdate = () => {
@@ -13,7 +13,7 @@ const StokeUpdate = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/service/${serviceId}`;
+        const url = `https://shrouded-springs-63285.herokuapp.com/service/${serviceId}`;
 
         fetch(url)
             .then(res => res.json())
@@ -26,7 +26,7 @@ const StokeUpdate = () => {
     const handleQuantity = async (id) => {
 
         const newQuantity = service?.quantity - 1;
-        const url = `http://localhost:5000/service/${id}`;
+        const url = `https://shrouded-springs-63285.herokuapp.com/service/${id}`;
         await axios.put(url, { newQuantity })
 
     };
@@ -62,6 +62,13 @@ const StokeUpdate = () => {
                     <input className='btn-part' type="text" placeholder='Restock Quantity' />
                     <button onClick={() => handleRestockValue(service?._id)}>Restock</button>
                 </div>
+            </div>
+            <div className='btn-part'>
+                <Link to="/allinventory">
+                    <button className='button' >
+                        Manage Inventory
+                    </button>
+                </Link>
             </div>
 
         </div>

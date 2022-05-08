@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #d9eff9;
-    color: white;
+    color: rgb(212, 38, 38);
+    text-align: center;
 
 }
 
