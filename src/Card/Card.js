@@ -8,13 +8,6 @@ const Card = (props) => {
     const navigate = useNavigate();
 
 
-    // const [services, setServices] = useState({});
-
-    // useEffect(() => {
-    //     const url = `https://shrouded-springs-63285.herokuapp.com/service/${id}`;
-
-    // })
-
     const navigateToServiceDetail = id => {
         navigate(`/service/${id}`);
     }

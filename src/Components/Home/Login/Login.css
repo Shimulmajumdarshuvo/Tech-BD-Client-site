@@ -1,6 +1,6 @@
 .user {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #d9eff9;
     color: white;
     text-align: center;
@@ -33,5 +33,14 @@
     margin-bottom: 15px;
     margin: 10px auto;
 
+
+}
+
+@media only screen and (max-width:660px) {
+    .user {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 
 }

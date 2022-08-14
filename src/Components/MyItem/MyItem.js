@@ -13,7 +13,7 @@ const MyItem = () => {
 
         const getItems = async () => {
             const email = user.email;
-            const url = `http://localhost:5000/myItems?email=${email}`;
+            const url = `https://shrouded-springs-63285.herokuapp.com/myItems?email=${email}`;
             const { data } = await axios.get(url)
             setItem(data);
         }

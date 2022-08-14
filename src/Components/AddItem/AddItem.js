@@ -12,7 +12,7 @@ const AddItem = () => {
 
     const { register, handleSubmit } = useForm();
     const onSubmit = async (data) => {
-        const url = `http://localhost:5000/service`;
+        const url = `https://shrouded-springs-63285.herokuapp.com/service`;
         await axios.post(url, data);
 
 

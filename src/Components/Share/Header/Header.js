@@ -21,7 +21,7 @@ const Header = () => {
                         <img height={45} width={100} src="https://www.startech.com.bd/image/catalog/logo.png" alt="" />
 
                     </Navbar.Brand>
-                    <h2 className='title'>Tech BD</h2>
+                    <h2 className='title'>Tech BD </h2>
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
