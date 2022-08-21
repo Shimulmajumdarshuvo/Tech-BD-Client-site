@@ -19,7 +19,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand className='tech-head' as={Link} to="/">
                         <h2 className='title'><span>T</span>E<span>C</span>H </h2>
-                        <img height={45} width={100} src="https://thumbs.dreamstime.com/b/bd-b-d-alphabet-letter-logo-icon-combination-creative-design-company-business-blue-pink-colours-206324936.jpg" alt="" />
+                        <img height={45} width={100} src="https://i.ibb.co/jDsSB1h/bd-b-d-alphabet-letter-logo-icon-combination-creative-design-company-business-blue-pink-colours-2063.jpg" alt="" />
 
                     </Navbar.Brand>
 
