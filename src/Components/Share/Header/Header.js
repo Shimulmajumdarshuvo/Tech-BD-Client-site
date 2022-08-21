@@ -17,11 +17,12 @@ const Header = () => {
         <>
             <Navbar className='navbar-part ' collapseOnSelect expand="lg" sticky='top' variant="dark">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">
-                        <img height={45} width={100} src="https://www.startech.com.bd/image/catalog/logo.png" alt="" />
+                    <Navbar.Brand className='tech-head' as={Link} to="/">
+                        <h2 className='title'><span>T</span>E<span>C</span>H </h2>
+                        <img height={45} width={100} src="https://thumbs.dreamstime.com/b/bd-b-d-alphabet-letter-logo-icon-combination-creative-design-company-business-blue-pink-colours-206324936.jpg" alt="" />
 
                     </Navbar.Brand>
-                    <h2 className='title'>Tech BD </h2>
+
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -29,8 +30,8 @@ const Header = () => {
                         <Nav className="me-auto">
                         </Nav>
 
-                        <Nav.Link as={Link} to="home">Home</Nav.Link>
-                        <Nav.Link as={Link} to="inventory">Inventory</Nav.Link>
+                        <Nav.Link as={Link} className='text-white' to="home">Home</Nav.Link>
+                        <Nav.Link as={Link} className='text-white' to="inventory">Inventory</Nav.Link>
 
 
 
@@ -46,12 +47,12 @@ const Header = () => {
 
 
 
-                            <Nav.Link as={Link} to="blog">Blog</Nav.Link>
+                            <Nav.Link as={Link} className='text-white' to="blog">Blog</Nav.Link>
                             {
                                 user && <>
-                                    <Nav.Link as={Link} to="allinventory">Manage Inventory</Nav.Link>
-                                    <Nav.Link as={Link} to="addItem">Add Item</Nav.Link>
-                                    <Nav.Link as={Link} to="myItem">My Item</Nav.Link>
+                                    <Nav.Link className='text-white' as={Link} to="allinventory">Manage Inventory</Nav.Link>
+                                    <Nav.Link className='text-white' as={Link} to="addItem">Add Item</Nav.Link>
+                                    <Nav.Link className='text-white' as={Link} to="myItem">My Item</Nav.Link>
 
                                 </>
                             }
@@ -60,7 +61,7 @@ const Header = () => {
                                 user ?
                                     <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
                                     :
-                                    <Nav.Link as={Link} to="login">
+                                    <Nav.Link className='text-white' as={Link} to="login">
                                         Login
                                     </Nav.Link>}
                         </Nav>
