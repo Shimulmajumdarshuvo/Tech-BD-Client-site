@@ -11,13 +11,17 @@
 
 .user {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+
     background-color: #d9eff9;
     color: white;
 
 }
 
-.image .image img {
+.image img {
+    width: 90%;
+    padding-left: 20%;
+    padding-top: 10%;
     margin: 0 auto;
 }
 
@@ -33,5 +37,14 @@
     margin-bottom: 15px;
     margin: 10px auto;
 
+
+}
+
+@media only screen and (max-width:760px) {
+    .user {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 
 }

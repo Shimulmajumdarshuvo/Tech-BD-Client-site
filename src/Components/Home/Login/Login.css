@@ -1,19 +1,25 @@
 .user {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
     background-color: #d9eff9;
     color: white;
-    text-align: center;
+
 
 }
 
-.user img {
+.image img {
+    width: 90%;
+    padding-left: 20%;
+    padding-top: 10%;
     margin: 0 auto;
 }
 
 .login-part {
     background-color: #366d8b;
-    margin: 50px;
+    margin: 50px 20px;
+    padding: 18px 0;
 
 }
 
@@ -36,7 +42,7 @@
 
 }
 
-@media only screen and (max-width:660px) {
+@media only screen and (max-width:760px) {
     .user {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
